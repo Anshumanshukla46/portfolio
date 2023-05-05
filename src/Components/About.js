@@ -19,7 +19,7 @@ const About = () => {
                     <div>
                         <p>I am passionate about building website which improves
                             the lives of people. I am good in creating websites and solving real world problems.
-                            I want to work in the field of <span className='font-bold text-lg underline'>Website Development</span> and also looking for role of <span className='font-bold text-lg underline'>Software Developer</span>.</p>
+                            I am looking for <span className='font-bold text-lg underline'>Software Developer</span> roles. I would be delighted to speak with you if you are hiring for an  <span className='font-bold text-lg underline'>SDE</span> position. <br />Please contact me at the <span className='underline'>anshumanshukla46@gmail.com</span> provided below or send me a note using below contact form.</p>
                     </div>
                 </div>
             </div>

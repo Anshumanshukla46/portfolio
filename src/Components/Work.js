@@ -16,6 +16,7 @@ import interactive from "../assets/projects/interactive-rating.gif"
 import signUp from "../assets/projects/intro-sign-up.gif"
 
 
+import dockergif from "../assets/projects/docker-2048.gif"
 
 import SingleProject from './SingleProject';
 
@@ -37,7 +38,7 @@ const Work = () => {
 
                         <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>Work</p>
 
-                        <p className='py-6'> Check out some of my recent work </p>
+                        <p className='py-6'> You may want to take a look at my latest endeavors, which can all be found on GitHub. </p>
 
                     </div>
 
@@ -78,12 +79,21 @@ const Work = () => {
                             codeLink="https://github.com/Anshumanshukla46/dashboard"
                         />
 
+
+                        <SingleProject
+                            gif={dockergif}
+                            title="Docker Game - 2048"
+                            demoLink="https://github.com/Anshumanshukla46/docker-2048"
+                            codeLink="https://github.com/Anshumanshukla46/docker-2048"
+                        />
+
                         <SingleProject
                             gif={joke}
                             title="LinkedIn Clone"
                             demoLink="https://microsoftedge.microsoft.com/addons/detail/tell-me-a-joke/afhlgchoeggalphcmcgchhnjkdjmobgg"
                             codeLink="https://github.com/Anshumanshukla46/joke-extension"
                         />
+
 
                         <SingleProject
                             gif={todo}
@@ -93,12 +103,6 @@ const Work = () => {
                         />
 
 
-                        <SingleProject
-                            gif={calculator}
-                            title="Calculator React UI"
-                            demoLink="https://anshumanshukla46.github.io/calculator-reactjs/"
-                            codeLink="https://github.com/Anshumanshukla46/calculator-reactjs"
-                        />
 
                         <SingleProject
                             gif={tenzies}
@@ -113,30 +117,6 @@ const Work = () => {
                             title="Get Meme"
                             demoLink="https://anshumanshukla46.github.io/meme/"
                             codeLink="https://github.com/Anshumanshukla46/meme"
-                        />
-
-
-                        <SingleProject
-                            gif={imgwh}
-                            title="Image width and height"
-                            demoLink="https://anshumanshukla46.github.io/get-image-by-width-height/"
-                            codeLink="https://github.com/Anshumanshukla46/get-image-by-width-height"
-                        />
-
-
-                        <SingleProject
-                            gif={interactive}
-                            title="Interactive Rating Card"
-                            demoLink="https://anshumanshukla46.github.io/InteractiveRating.github.io/"
-                            codeLink="https://github.com/Anshumanshukla46/InteractiveRating.github.io"
-                        />
-
-
-                        <SingleProject
-                            gif={signUp}
-                            title="Smart Sign Up Form"
-                            demoLink="https://anshumanshukla46.github.io/IntroSignUpForm/"
-                            codeLink="https://github.com/Anshumanshukla46/IntroSignUpForm"
                         />
 
                     </div>

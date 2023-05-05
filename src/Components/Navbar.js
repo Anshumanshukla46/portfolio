@@ -27,8 +27,10 @@ const Navbar = () => {
                         alt="Admin-logo"
                         style={{ width: '70px' }}
                         className="hover:cursor-pointer"
+                        onClick={() => window.location.reload()}
                     />
                 </Link>
+
             </div>
 
 
@@ -127,7 +129,8 @@ const Navbar = () => {
                     <Link
                         onClick={handleClick}
                         to="work"
-                        smooth={true} duration={500}>
+                        smooth={true}
+                        duration={500}>
                         Work
                     </Link>
                 </li>
@@ -136,7 +139,8 @@ const Navbar = () => {
                     <Link
                         onClick={handleClick}
                         to="contact"
-                        smooth={true} duration={500}>
+                        smooth={true}
+                        duration={500}>
                         Contact
                     </Link>
                 </li>
@@ -157,6 +161,7 @@ const Navbar = () => {
                         <a
                             className='flex justify-between items-center w-full text-gray-300'
                             href='https://www.linkedin.com/in/anshuman-shukla-0a0a591ba/'
+                            target='_blank'
                         >
                             Linkedin <FaLinkedin size={30} />
                         </a>
@@ -168,6 +173,7 @@ const Navbar = () => {
                         <a
                             className='flex justify-between items-center w-full text-gray-300'
                             href='https://github.com/Anshumanshukla46'
+                            target='_blank'
                         >
                             Github <FaGithub size={30} />
                         </a>
@@ -177,6 +183,7 @@ const Navbar = () => {
                         <a
                             className='flex justify-between items-center w-full text-gray-300'
                             href='mailto:anshumanshukla46@gmail.com'
+                            target='_blank'
                         >
                             Email <HiOutlineMail size={30} />
                         </a>
@@ -186,7 +193,8 @@ const Navbar = () => {
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                         <a
                             className='flex justify-between items-center w-full text-gray-300'
-                            href='mailto:anshumanshukla46@gmail.com'
+                            href='https://drive.google.com/file/d/1MrVA7n68KFlpnd6FLXKrpvjUWZ7BNQhk/view?usp=share_link'
+                            target='_blank'
                         >
                             Resume <BsFillPersonLinesFill size={30} />
                         </a>

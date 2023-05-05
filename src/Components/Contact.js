@@ -20,7 +20,7 @@ const Contact = () => {
 
                     <p
                         className='text-white py-4'>
-                        Submit the form below or shoot me an email at 'anshumanshukla46@gmail.com'
+                        Submit the form below or shoot me an email at <span className='underline'>anshumanshukla46@gmail.com</span>
                     </p>
                 </div>
 
@@ -33,9 +33,16 @@ const Contact = () => {
                     name='name' />
 
 
-                <input className='placeholder:text-white my-4 p-2 bg-[#253143]' type="email" placeholder='Email' name='email' />
+                <input
+                    className='placeholder:text-white my-4 p-2 bg-[#253143] text-white'
+                    type="email"
+                    placeholder='Email'
+                    name='email' />
 
-                <textarea className='bg-[#253143] p-2 text-white placeholder:text-white border-0' name="message" rows="10" placeholder='Message' defaultValue="Message will reach me!">
+                <textarea
+                    className='bg-[#253143] p-2 text-white placeholder:text-white border-0' name="message"
+                    rows="10"
+                    placeholder='Message'>
 
                 </textarea>
 
