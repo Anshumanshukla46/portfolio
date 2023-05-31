@@ -6,4 +6,4 @@ I must confess that this portfolio is a work in progress. While I have put in my
 
 My journey in website development started as a hobby, but over time, it has become my passion. I have spent countless hours learning and experimenting with various web development tools and technologies, including HTML, CSS, JavaScript, React, and Node.js. Each new project I undertake is an opportunity to learn and grow, and I'm always eager to take on new challenges. 🤓🌟
 
-If you have any questions about my projects or skills, or if you would like to collaborate on a project, please don't hesitate to contact me. Thank you for taking the time to visit my portfolio, and I hope you enjoy browsing through it! 🙏😊
+If you have any questions about my projects or skills, or if you would like to collaborate on a project, please don't hesitate to contact me. Thank you for taking the time to visit my portfolio, and I hope you enjoy browsing through it! 😊
