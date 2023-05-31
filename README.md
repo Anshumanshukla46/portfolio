@@ -1,4 +1,4 @@
-# `Hello there! 👋😊`
+# `Hello there!` 👋😊
 
 Welcome to my website development portfolio. 🚀👨‍💻 I created this portfolio to showcase my skills and projects in the field of website development. As you browse through my portfolio, you'll see a variety of projects that I have worked on, ranging from simple static websites to complex dynamic web applications.
 
